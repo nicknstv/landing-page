@@ -1,0 +1,25 @@
+.flex-container{
+    display: flex;
+}
+/*Section - Header*/
+.header{
+    align-items: center;
+    height: max-content;
+    flex: 1 1 auto;
+}
+
+.ul-right-links
+{
+    list-style: none;
+    gap:20px;
+    padding-left:0;
+
+}
+a{
+    text-decoration: none;
+}
+.heading{
+    margin-right: auto;
+}
+/*End of Section - Header*/
+
