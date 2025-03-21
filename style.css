@@ -36,5 +36,8 @@ a{
 .header-info{
     align-items: center;
 }
+.randon-info{
+    flex-direction: column;
+}
 /*End of sections style*/
 
