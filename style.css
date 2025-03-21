@@ -1,6 +1,9 @@
 .flex-container{
     display: flex;
 }
+.main{
+    flex-direction: column;
+}
 /*Section - Header*/
 .header{
     align-items: center;
@@ -22,4 +25,16 @@ a{
     margin-right: auto;
 }
 /*End of Section - Header*/
+
+/*Sections style*/
+.sections{
+    flex-direction: column;
+}
+.left{
+    flex-direction: column;
+}
+.header-info{
+    align-items: center;
+}
+/*End of sections style*/
 
