@@ -1,14 +1,20 @@
+body{
+    display: flex;
+}
 .flex-container{
     display: flex;
 }
 .main{
     flex-direction: column;
+    border: 2px solid black;
+    flex: 1 1 0;
+    height: 100vh;
 }
 /*Section - Header*/
 .header{
     align-items: center;
     height: max-content;
-    flex: 1 1 auto;
+    flex: 0 1 auto;
 }
 
 .ul-right-links
@@ -29,15 +35,45 @@ a{
 /*Sections style*/
 .sections{
     flex-direction: column;
+    gap: 30px;
+    border: 2px solid black;
+    flex: 1 1;
 }
+/*Children of .section class-flex properties */
+
+.random-info{
+    flex-direction: column;
+    flex: 1;
+    border: 2px solid black;
+}
+
+.header-info{
+    align-items: center;
+    flex: 1;
+    border: 2px solid black;
+}
+
+.quote{
+    flex: 1;
+}
+
+.footer{
+    flex: 1;
+}
+
 .left{
     flex-direction: column;
 }
-.header-info{
-    align-items: center;
+
+.box{
+    border: 2px solid black;
+    height: 100px;
+    width: 100px;
 }
-.randon-info{
+
+.section-boxes{
     flex-direction: column;
+    border: 2px solid black;
 }
 /*End of sections style*/
 
