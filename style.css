@@ -13,7 +13,7 @@ body{
      padding-right: 30px;
      width: 60vw;
     flex: 1 1 0;
-    height: 100vh;
+    height: 120vh;
     background-color: white;
     align-items: center;
 }
@@ -112,18 +112,32 @@ a{
 
 /*End*/
 
+/*Quote section*/
 .quote{
     flex: 1 1 0;
+    flex-direction: column;
+    gap: 10px;
 }
 
+#quote{
+    width: 696px;
+    align-self: center;
+}
+
+.author{
+    align-self: center;
+    width: 696px;
+}
+.author-text{
+    margin-left:auto; 
+}
+
+/*End*/
 .call-to-action{
     flex: 1 1 0;
 
 }
 
-.quote{
-    flex-direction: column;
-}
 /*End of sections style*/
 
 .footer{
