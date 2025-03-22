@@ -6,7 +6,7 @@ body{
 }
 .main{
     flex-direction: column;
-    border: 2px solid black;
+     
     flex: 1 1 0;
     height: 100vh;
 }
@@ -36,29 +36,28 @@ a{
 .sections{
     flex-direction: column;
     gap: 30px;
-    border: 2px solid black;
+     
     flex: 1 1;
 }
 /*Children of .section class-flex properties */
 
 .random-info{
     flex-direction: column;
-    flex: 1;
-    border: 2px solid black;
+    flex: 1 1 0;   
 }
 
 .header-info{
     align-items: center;
-    flex: 1;
-    border: 2px solid black;
+    flex: 1 1 0;
 }
 
 .quote{
-    flex: 1;
+    flex: 1 1 0;
 }
 
-.footer{
-    flex: 1;
+.call-to-action{
+    flex: 1 1 0;
+
 }
 
 .left{
@@ -66,14 +65,24 @@ a{
 }
 
 .box{
-    border: 2px solid black;
+     
     height: 100px;
     width: 100px;
+    border: 2px solid black;
 }
 
 .section-boxes{
+    flex-direction: column;    
+}
+
+.quote{
     flex-direction: column;
-    border: 2px solid black;
 }
 /*End of sections style*/
+
+.footer{
+    min-height: 50px;
+    flex: 0 1 auto;
+    margin-bottom: 0px;
+}
 
