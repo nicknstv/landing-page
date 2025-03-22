@@ -45,15 +45,10 @@ a{
 .sections{
     flex-direction: column;
     gap: 30px;
-     
     flex: 1 1;
 }
 /*Children of .section class-flex properties */
 
-.random-info{
-    flex-direction: column;
-    flex: 1 1 0;   
-}
 /* Under header section*/ 
 .header-info{
     align-items: center;
@@ -86,6 +81,37 @@ a{
 
 /*End*/
 
+/*Radnom-info section*/
+.random-info{
+    flex-direction: column;
+    flex: 1 1 0;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.section-boxes{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;   
+}
+.boxes{
+    gap: 40px;
+}
+
+.box{
+     
+    height: 140px;
+    width: 140px;
+    border: 2px solid black;
+}
+
+.box-info{
+    width: 140px;
+}
+
+/*End*/
+
 .quote{
     flex: 1 1 0;
 }
@@ -93,17 +119,6 @@ a{
 .call-to-action{
     flex: 1 1 0;
 
-}
-
-.box{
-     
-    height: 100px;
-    width: 100px;
-    border: 2px solid black;
-}
-
-.section-boxes{
-    flex-direction: column;    
 }
 
 .quote{
