@@ -1,20 +1,29 @@
 body{
     display: flex;
+    background-color: black;
 }
 .flex-container{
     display: flex;
 }
 .main{
     flex-direction: column;
-     
+     margin-left: 20vw;
+     margin-right: 20vw;
+     padding-left: 30px;
+     padding-right: 30px;
+     width: 60vw;
     flex: 1 1 0;
     height: 100vh;
+    background-color: white;
+    align-items: center;
 }
 /*Section - Header*/
 .header{
     align-items: center;
+    justify-content: space-;
     height: max-content;
     flex: 0 1 auto;
+    width: 840px;
 }
 
 .ul-right-links
@@ -45,11 +54,37 @@ a{
     flex-direction: column;
     flex: 1 1 0;   
 }
-
+/* Under header section*/ 
 .header-info{
     align-items: center;
     flex: 1 1 0;
+    justify-content: center;
 }
+
+.left{
+    flex-direction: column;
+    flex: 0 1 0;
+    min-width: 400px;
+    height: 200px;
+    padding-right: 40px;
+    justify-content: center;
+
+}
+
+.right{
+    flex: 0 1 0;
+    justify-content: center;
+    align-items: center;
+    min-width: 400px;
+    height: 200px;
+    background-color: lightgrey;
+}
+
+.img-place-holder{
+    color: white;
+}
+
+/*End*/
 
 .quote{
     flex: 1 1 0;
@@ -58,10 +93,6 @@ a{
 .call-to-action{
     flex: 1 1 0;
 
-}
-
-.left{
-    flex-direction: column;
 }
 
 .box{
