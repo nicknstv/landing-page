@@ -7,23 +7,21 @@ body{
 }
 .main{
     flex-direction: column;
-     margin-left: 25vw;
-     margin-right: 25vw;
-     width: 60vw;
+     margin-left: 10vw;
+     margin-right: 10vw;
+     width: 80vw;
     flex: 1 1 auto;
-    height: 110vh;
-    background-color: darkslategrey;
+    height: 150vh;
+    background-color: rgb(31, 41, 55);
     align-items: center;
 }
 /*Section - Header*/
 .header{
     align-items: center;
-    justify-content: space-;
     height: max-content;
     flex: 0 1 auto;
     width: 840px;
-    background-color: darkslategrey;
-    color:white;
+    background-color: rgb(31, 41, 55);
 }
 
 .ul-right-links
@@ -35,16 +33,22 @@ body{
 }
 a{
     text-decoration: none;
+    color: lightgrey;
 }
 .heading{
     margin-right: auto;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+
 }
 /*End of Section - Header*/
 
 /*Sections style*/
 .sections{
     flex-direction: column;
-    flex: 1 1;
+    flex: 1 1 0;
+    width: 80vw;
 }
 /*Children of .section class-flex properties */
 
@@ -53,7 +57,7 @@ a{
     align-items: center;
     flex: 1 1 0;
     justify-content: center;
-    background-color: darkslategrey;
+    background-color: rgb(31, 41, 55);
     color: white
 }
 
@@ -161,5 +165,9 @@ a{
     flex: 0 1 auto;
     margin-bottom: 0px;
     align-items: center;
+    color:white;
+}
+#footer{
+    color:white;
 }
 
