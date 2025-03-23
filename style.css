@@ -20,7 +20,7 @@ body{
     align-items: center;
     height: max-content;
     flex: 0 1 auto;
-    width: 840px;
+    width: 890px;
     background-color: rgb(31, 41, 55);
 }
 
@@ -39,8 +39,7 @@ a{
     margin-right: auto;
     color: white;
     font-weight: bold;
-    font-size: 20px;
-
+    font-size: 22px;
 }
 /*End of Section - Header*/
 
@@ -71,13 +70,28 @@ a{
 
 }
 
+.header-info-h{
+    font-weight: bold;
+    font-size: 45px;
+}
+
+.header-info p{
+    color: lightgrey;
+    font-size: 18px;
+}
+.button{
+    border-radius: 5px;
+    background-color: #3b82f6;
+    padding: 5px 10px;
+    max-width: max-content;
+}
 .right{
     flex: 0 1 0;
     justify-content: center;
     align-items: center;
-    min-width: 400px;
-    height: 200px;
-    background-color: lightgrey;
+    min-width: 450px;
+    height: 250px;
+    background-color: grey;
 }
 
 .img-place-holder{
