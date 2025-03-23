@@ -7,14 +7,12 @@ body{
 }
 .main{
     flex-direction: column;
-     margin-left: 20vw;
-     margin-right: 20vw;
-     padding-left: 30px;
-     padding-right: 30px;
+     margin-left: 25vw;
+     margin-right: 25vw;
      width: 60vw;
-    flex: 1 1 0;
-    height: 100vh;
-    background-color: white;
+    flex: 1 1 auto;
+    height: 110vh;
+    background-color: darkslategrey;
     align-items: center;
 }
 /*Section - Header*/
@@ -24,6 +22,8 @@ body{
     height: max-content;
     flex: 0 1 auto;
     width: 840px;
+    background-color: darkslategrey;
+    color:white;
 }
 
 .ul-right-links
@@ -44,7 +44,6 @@ a{
 /*Sections style*/
 .sections{
     flex-direction: column;
-    gap: 30px;
     flex: 1 1;
 }
 /*Children of .section class-flex properties */
@@ -54,6 +53,8 @@ a{
     align-items: center;
     flex: 1 1 0;
     justify-content: center;
+    background-color: darkslategrey;
+    color: white
 }
 
 .left{
@@ -88,6 +89,7 @@ a{
     justify-content: center;
     align-items: center;
     gap: 30px;
+    background-color: white;
 }
 
 .section-boxes{
@@ -118,6 +120,7 @@ a{
     flex-direction: column;
     gap: 10px;
     justify-content: center;
+    background-color: lightgrey;
 }
 
 #quote{
@@ -139,6 +142,7 @@ a{
     flex: 1 1 0;
     align-items: center;
     justify-content: center;
+    background-color: white;
 
 }
 .inner-box{
@@ -156,5 +160,6 @@ a{
     min-height: 50px;
     flex: 0 1 auto;
     margin-bottom: 0px;
+    align-items: center;
 }
 
